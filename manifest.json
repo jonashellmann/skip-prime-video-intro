@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Skip Prime Video Intro",
-  "version": "1.0",
+  "version": "1.2",
 
   "description": "Addon to automatically skip intros on Amazon Prime Video",
   
