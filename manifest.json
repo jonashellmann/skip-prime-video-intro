@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Skip Prime Video Intro",
+  "version": "1.0",
+
+  "description": "Addon to automatically skip intros on Amazon Prime Video",
+  
+  "applications": {
+    "gecko": {
+      "id": "skip_prime_video_intro@jonas-hellmann.de"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.amazon.de/*", "*://*.amazon.com/*", "*://*.amazon.com.au/*", "*://*.amazon.com.br/*", "*://*.amazon.ca/*", "*://*.amazon.cn/*", "*://*.amazon.fr/*", "*://*.amazon.in/*", "*://*.amazon.it/*", "*://*.amazon.co.jp/*", "*://*.amazon.com.mx/*", "*://*.amazon.es/*", "*://*.amazon.co.uk/*"],
+      "js": ["skip_prime_video_intro.js"]
+    }
+  ]
+
+}
