@@ -4,13 +4,13 @@ const mutationObserverPrime = new MutationObserver(
 		for (let mutation of mutations) {
 			// Iterate over all added nodes in a mutation
 			for (let node of mutation.addedNodes) {
-				// Click on node if it
+				// Click on node if it matches skip button
 				if (node.matches) {
-					if (node.matches('.skipElement')) {
+					if (node.matches('.f1oordr3')) {
 						node.click();
-					} else if (node.matches('.nextUpContents')) {
+					} else if (node.matches('div')) {
 						for (let child of node.childNodes) {
-							if (child.matches('.nextUpCard')) {
+							if (child.matches('.atvwebplayersdk-nextupcard-button')) {
 								child.click();
 							}
 						}
