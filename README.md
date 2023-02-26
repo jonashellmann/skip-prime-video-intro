@@ -2,7 +2,7 @@
 
 This is an addon for Firefox or other browsers using the WebExtensions API.
 It automatically skips the intro on Amazon Prime Video when the 'Skip Intro' button is shown.
-In addition, the next episode of a series is started directly as soon as this is displayed in the video player.
+In addition, ads and flashbacks will be skipped and the next episode of a series is started directly as soon as this is displayed in the video player.
 
 ## Installation 
 
